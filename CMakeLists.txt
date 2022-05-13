@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-project(yolov3_deepsort)
+project(yolo_deepsort)
 list(APPEND CUDA_NVCC_FLAGS "-std=c++11")
 set(CMAKE_CXX_FLAGS "-std=c++0x")
 find_package(OpenCV REQUIRED)
@@ -39,7 +39,7 @@ target_link_libraries(deepsort
     ${CUDA_LIBS} ${OpenCV_LIBS} 
     cudart nvinfer nvonnxparser
 )
-# ===== yolo =====
+# ===== yolov3 =====
 include_directories(${PROJECT_SOURCE_DIR}/yolov3_NAB/include)
 aux_source_directory(${PROJECT_SOURCE_DIR}/yolov3_NAB/src YOLO_SRC_DIR)
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -Ofast -Wfatal-errors -D_MWAITXINTRIN_H_INCLUDED")
@@ -47,6 +47,7 @@ set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11 -Wall -Ofast -Wfatal-errors -
 cuda_add_library(yolov3_trt SHARED ${PROJECT_SOURCE_DIR}/yolov3_NAB/include/yololayer.cu ${PROJECT_SOURCE_DIR}/yolov3_NAB/src/yolov3_NAB.cpp)
 target_link_libraries(yolov3_trt nvinfer cudart deepsort) 
 
+# ===== yolov4 =====
 
 # ===== main =====
 aux_source_directory(${PROJECT_SOURCE_DIR}/src M_SRC_DIR)

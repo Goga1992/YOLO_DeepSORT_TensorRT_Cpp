@@ -32,3 +32,6 @@
 ## Reference
 * [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx)
 * [RichardoMrMu/deepsort-tensorrt](https://github.com/RichardoMrMu/deepsort-tensorrt)
+* [RichardoMrMu/yolov5-deepsort-tensorrt](https://github.com/RichardoMrMu/yolov5-deepsort-tensorrt)
+* [ultralytics/yolov5](https://github.com/ultralytics/yolov5)
+* [ultralytics/yolov3](https://github.com/ultralytics/yolov3)
