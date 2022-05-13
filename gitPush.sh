@@ -1,3 +1,3 @@
 git add .
-git commit -m "update"
+git commit -m "nabang1010 update"
 git push
