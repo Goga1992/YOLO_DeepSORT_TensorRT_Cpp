@@ -56,5 +56,5 @@
 
 
 ## Reference
-* [tensorrtx](https://github.com/wang-xinyu/tensorrtx)
-* [deepsort-tensorrt](https://github.com/nabang1010/deepsort-tensorrt)
+* [wang-xinyu/tensorrtx](https://github.com/wang-xinyu/tensorrtx)
+* [RichardoMrMu/deepsort-tensorrt](https://github.com/RichardoMrMu/deepsort-tensorrt)
