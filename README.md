@@ -11,7 +11,8 @@
 | AMD Ryzen 7 4800H | NVIDIA Geforce GTX 1660 Ti 6GB VRAM |  16GB  |
 
 
-## Inference Object Detection
+## Inference Object Detection (C++ API)
+
 
 
 | Model Object Detection | FPS_AVR (*fps*) | Memory CPU (*mB*) | Memory GPU (*miB*) | Time (*s*) |
@@ -19,11 +20,11 @@
 | **YOLOv3_FP16** | 125 | 705 | 1606 | *___* |
 
 
-## Inference Object Detection + Tracking
+## Inference Object Detection + Tracking (C++ API)
 
 | Model | FPS_AVR (*fps*) | Memory CPU (*mB*) | Memory GPU (*miB*) | Time (*s*) |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| **YOLOv3_FP16 + Deepsort** | 166.667 | *___* | *___* | *___* |
+| **YOLOv3_FP16 + DeepSORT** | 166.667 | *___* | *___* | *___* |
 
 
 
