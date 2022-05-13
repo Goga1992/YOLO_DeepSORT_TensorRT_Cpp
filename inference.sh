@@ -1,2 +1,2 @@
 cd build
-sudo ./yolosort
+sudo ./yolov3_deepsort

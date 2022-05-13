@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 2.6)
 
-project(yolosort)
+project(yolov3_deepsort)
 list(APPEND CUDA_NVCC_FLAGS "-std=c++11")
 set(CMAKE_CXX_FLAGS "-std=c++0x")
 find_package(OpenCV REQUIRED)
@@ -52,9 +52,9 @@ target_link_libraries(yolov3_trt nvinfer cudart deepsort)
 aux_source_directory(${PROJECT_SOURCE_DIR}/src M_SRC_DIR)
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
-add_executable(yolosort ${M_SRC_DIR})
+add_executable(yolov3_deepsort ${M_SRC_DIR})
 
-target_link_libraries(yolosort nvinfer cudart yolov3_trt)
+target_link_libraries(yolov3_deepsort nvinfer cudart yolov3_trt)
 
 if(UNIX)
 add_definitions(-O2 -pthread)
