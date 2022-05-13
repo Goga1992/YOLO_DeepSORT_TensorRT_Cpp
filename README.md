@@ -3,35 +3,7 @@
 
 # yolov3_NAB
 
-```
-├──nabTensorRTxCode (github)
-│  └── yolov3 - nabYolov3DeepsortTensort  (git clone https://github.com/wang-xinyu/tensorrtx.git)
-│      ├── build
-│      │   └── CMakeFiles
-│      │       ├── 3.10.2
-│      │       │   ├── CompilerIdC
-│      │       │   │   └── tmp
-│      │       │   └── CompilerIdCXX
-│      │       │       └── tmp
-│      │       ├── CMakeTmp
-│      │       ├── yololayer.dir
-│      │       └── yolov3.dir
-│      └── yolov3 (git clone -b archive https://github.com/ultralytics/yolov3.git)
-│          ├── cfg
-│          ├── data
-│          │   └── samples
-│          ├── __pycache__
-│          ├── utils
-│          │   └── __pycache__
-│          └── weights
-└──nabTensorRTxResource (onedrive)
-   └── yolov3
-       └── weights
-           ├── nab_yolov3_320.cfg
-           ├── nab_yolov3_320.engine
-           ├── nab_yolov3_320.weights
-           └── nab_yolov3_320.wts
-```
+
 ## Hardware
 
 | CPU | GPU | RAM |
