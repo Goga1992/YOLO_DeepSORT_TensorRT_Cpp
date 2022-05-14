@@ -25,7 +25,7 @@ int main(){
 	Trtyolosort yosort(yolo_engine,sort_engine);
 	VideoCapture capture;
 	cv::Mat frame;
-	frame = capture.open("/home/nab/Desktop/YOLO_DeepSORT_TensorRT_Cpp/resources/vid2.mp4");
+	frame = capture.open("/home/nab/Desktop/YOLO_DeepSORT_TensorRT_Cpp/resources/test_manh.mp4");
 	if (!capture.isOpened()){
 		std::cout<<"can not open"<<std::endl;
 		return -1 ;

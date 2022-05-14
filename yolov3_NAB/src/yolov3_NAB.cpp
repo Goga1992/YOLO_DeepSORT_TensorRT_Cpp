@@ -15,7 +15,7 @@
 #define USE_FP16  // set USE_INT8 or USE_FP16 or USE_FP32
 #define DEVICE 0  // GPU id
 #define NMS_THRESH 0.4
-#define BBOX_CONF_THRESH 0.5
+#define BBOX_CONF_THRESH 0.8
 #define BATCH_SIZE 1
 
 using namespace nvinfer1;
