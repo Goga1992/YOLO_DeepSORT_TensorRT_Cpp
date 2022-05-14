@@ -26,7 +26,7 @@
 
 | Model | FPS_AVR (*fps*) | Memory CPU (*mB*) | Memory GPU (*miB*) | Time (*s*) |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| **YOLOv5_FP16 + DeepSORT** | 250 | *___* | *___* | *___* |
+| **YOLOv5_FP16 + DeepSORT** | 250 | 1096 | 679 | *___* |
 | **YOLOv4_FP16 + DeepSORT** | *___* | *___* | *___* | *___* |
 | **YOLOv3_FP16 + DeepSORT** | 166.667 | 1601 | 971 | *___* |
 
