@@ -16,7 +16,7 @@ void Trtyolosort::showDetection(cv::Mat& img, std::vector<DetectBox>& boxes) {
     for (auto box : boxes) {
         cv::Point lt(box.x1, box.y1);
         cv::Point br(box.x2, box.y2);
-        cv::rectangle(temp, lt, br, cv::Scalar(255, 0, 0), 1);
+        cv::rectangle(temp, lt, br, cv::Scalar(255, 0, 0), 2);
         //std::string lbl = cv::format("ID:%d_C:%d_CONF:%.2f", (int)box.trackID, (int)box.classID, box.confidence);
 		// std::string class_name= "";
 		// switch(int(box.classID)){
@@ -40,7 +40,7 @@ void Trtyolosort::showDetection(cv::Mat& img, std::vector<DetectBox>& boxes) {
 
 		// std::string lbl = cv::format("ID:%d_x:%f_y:%f",(int)box.trackID,(box.x1+box.x2)/2,(box.y1+box.y2)/2);
 		std::string lbl = cv::format("ID:%d",(int)box.trackID);
-        cv::putText(temp, lbl, lt, cv::FONT_HERSHEY_SIMPLEX, 0.5, cv::Scalar(0,255,0));
+        cv::putText(temp, lbl, lt, cv::FONT_HERSHEY_SIMPLEX, 1, cv::Scalar(0,255,0));
     }
     cv::imshow("img", temp);
     cv::waitKey(1);
