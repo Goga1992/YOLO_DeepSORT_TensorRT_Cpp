@@ -17,8 +17,9 @@
 
 | Model Object Detection | FPS_AVR (*fps*) | Memory CPU (*mB*) | Memory GPU (*miB*) | Time (*s*) |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| **YOLOv3_FP16** | 125 | 705 | 1606 | *___* |
+| **YOLOv5_FP16** | *___* | *___* | *___* | *___* |
 | **YOLOv4_FP16** | *___* | *___* | *___* | *___* |
+| **YOLOv3_FP16** | 125 | 705 | 1606 | *___* |
 
 
 ## Inference Object Detection + Tracking (C++ API)
