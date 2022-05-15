@@ -1,4 +1,4 @@
-# YOLO_DeepSORT_TensorRT_Cpp
+# YOLO DeepSORT TensorRT C++ API
 
 ***@nabang1010***
 
